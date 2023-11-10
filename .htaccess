@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteRule ^([a-zA-Z0-9]+)$ ./user.php?id=$1
+RewriteRule ^([a-zA-Z0-9]+)/$ ./user.php?id=$1
+RewriteRule ^team/([a-zA-Z0-9]+)$ ./teamprofile.php?tid=$1
+RewriteRule ^team/([a-zA-Z0-9]+)/$ ./teamprofile.php?tid=$1

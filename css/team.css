@@ -1,0 +1,84 @@
+.team-header-holder
+	{
+		margin:0 auto;
+		width:100%;
+		height:300px;
+		background:url('../img/tbg.png')repeat;
+		z-index:2;
+	}
+
+.team-header-holder img
+	{
+		height:100px;
+		width:100px;
+		border:solid 1px black;
+		-moz-box-shadow:2px 2px 15px #000;
+		-webkit-box-shadow: 2px 2px 15px #000;
+		box-shadow:2px 2px 15px #000;
+	}
+#team-logo
+	{
+		width:100%;
+		text-align:center;
+		padding-top:60px;
+	}
+#team-info
+	{
+		color:white;
+		text-align:center;
+	}
+#team-info h1
+	{
+		text-shadow: 0 -1px 0 #000;
+		margin:0px;
+		padding:0px;
+	}
+#team-info h3
+	{
+		text-shadow: 0 -1px 0 #000;
+		margin:0px;
+		padding:0px;
+	}
+#team-record
+	{
+		text-align:center;
+		float:left;
+		width:25%;
+	}
+#t-roster
+	{
+		float:left;
+		width:20%;
+		text-align:center;
+		padding-top:10px;
+	}
+#t-roster a 
+	{
+		text-decoration:none;
+		color:black;
+	}
+#t-roster:hover
+	{
+		background:gray;
+		-webkit-transition: all 0.9s ease;
+	}
+#t-roster p 
+	{
+		padding:0px;
+		margin:0px;
+	}
+#t-roster img
+	{
+		width:99%;
+		
+	}
+#t-roster span
+	{
+		width:15%;
+	}
+#t-roster img,#t-roster span
+	{
+		display:block;
+		padding:0px;
+		margin:0px;
+	}

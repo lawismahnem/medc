@@ -1,0 +1,79 @@
+.match
+	{
+		width:100%;
+		text-align:center;
+	}
+.match span
+	{
+		color:white;
+	}
+.team-header-holder
+	{
+		margin:0 auto;
+		width:100%;
+		height:300px;
+		background:url('../img/tbg.png')repeat;
+		z-index:2;
+	}
+#match-t h1
+	{
+		padding:0px;
+		margin:0px;
+		color:white;
+		font-size:18px;
+	}
+#match-t img
+	{
+		height:100px;
+				-moz-box-shadow:2px 2px 15px #000;
+		-webkit-box-shadow: 2px 2px 15px #000;
+		box-shadow:2px 2px 15px #000;
+		border:solid 1px black;
+	}
+#match-t h5
+	{
+		padding:0px;
+		margin:0px;
+		color:#ddd;
+	}
+#match-t h6
+	{
+		padding:0px;
+		margin:0px;
+		font-size:9px;color:white;
+	}
+#match-t button
+	{
+		border:none;
+		background:black;
+		color:white;
+		border-radius:5px;
+		padding:5px;
+		
+	}
+#placebet input
+	{
+		border:none;border-radius:5px;
+		padding:5px;
+		margin:2px;
+	}
+#placebet select
+	{
+		border:none;border-radius:5px;
+		padding:5px;
+		margin:2px;
+	}
+#match-t button:hover
+	{
+		background:white;
+		color:black;
+	}
+#bh p
+	{
+		text-align:left;
+		color:#ddd;
+		padding:0px;
+		margin:0px;
+		padding-left:10px;
+		font-size:12px;
+	}
